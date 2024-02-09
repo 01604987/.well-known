@@ -1,0 +1,24 @@
+{
+    "id": "did:web:01604987.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web.01604987.github.io#X509-JWK2020",
+        "controller": "did:web:01604987.github.io",
+        "type": "JsonWebKey2020",
+        "publicKeyJwk": {
+          "alg": "PS256",
+          "e": "AQAB",
+          "kty": "RSA",
+          "n": "pbmSTZCh7dBABA+BPACUs3TSAiMHEFvPqaLTkLGSPqrsbSF3b9I05lRYU4Z5mHaEMe/oA40joxEjG+SirdZfhvDju90fGgZ4mzPYRuPdAdIx1G1GLIePKcwyOmVwSJ+DrcNaeV0Arxlhyf/jwrjamLNDt3fdQVz7Bj7G3Mv/BifcYOayNvYJ4nJQuLqczS4xma7ifQyob0Bjgf06muSYFCiXfqMKOuVddkoR9NmD13WRsRW91avBmLtmXEvV45om9YVgxJII4xYdwAdFxqZj1m9u1/NpssB08x0J6H277yiv9/VzNAZRWeIwdppeJUBtjlCw/dTvIFIpYaUbgSX91si+bFDNW1fCqiJf9M0uGgXGmHzQqk7F2v9q6nrtt527/8lOHDUlkQ8E4zvIoLVEV3thqRA1WrT+iNaQVeixN15dpN8GXIkR0i6DUjmavu4gOWwxXaQznzySCuRXmpMMnVmsRlkQ4dwUXeimOp/KyEw6FBoC014DQEtpd7pzinXld+igQqcgST+aNcs0EvKAjmv3faLK3AKgPq1UcKIDKgrr9XC5lqhiLY5Aqpn6gY+5uSTAg4pbxp2bnXiIVXUntC3uMixN0eCRI5iHopqulih6lXJ0uxWrZJ0vrM8N9oZWT/t4cJ8KyaVLEyvLDJ3ohMDXxwenSMJIxd/tNNEMyxs=",
+          "x5u": "https://boron.lab.amids.at/.well-known/chain.pem"
+        }
+      }
+    ],
+    "assertionMethod": [
+      "did:web:01604987.github.io#X509-JWK2020"
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ]
+  }
