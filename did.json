@@ -1,24 +1,24 @@
 {
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
     "id": "did:web:01604987.github.io",
     "verificationMethod": [
-      {
-        "id": "did:web.01604987.github.io#X509-JWK2020",
-        "controller": "did:web:01604987.github.io",
-        "type": "JsonWebKey2020",
-        "publicKeyJwk": {
-          "alg": "PS256",
-          "e": "AQAB",
-          "kty": "RSA",
-          "n": "pbmSTZCh7dBABA+BPACUs3TSAiMHEFvPqaLTkLGSPqrsbSF3b9I05lRYU4Z5mHaEMe/oA40joxEjG+SirdZfhvDju90fGgZ4mzPYRuPdAdIx1G1GLIePKcwyOmVwSJ+DrcNaeV0Arxlhyf/jwrjamLNDt3fdQVz7Bj7G3Mv/BifcYOayNvYJ4nJQuLqczS4xma7ifQyob0Bjgf06muSYFCiXfqMKOuVddkoR9NmD13WRsRW91avBmLtmXEvV45om9YVgxJII4xYdwAdFxqZj1m9u1/NpssB08x0J6H277yiv9/VzNAZRWeIwdppeJUBtjlCw/dTvIFIpYaUbgSX91si+bFDNW1fCqiJf9M0uGgXGmHzQqk7F2v9q6nrtt527/8lOHDUlkQ8E4zvIoLVEV3thqRA1WrT+iNaQVeixN15dpN8GXIkR0i6DUjmavu4gOWwxXaQznzySCuRXmpMMnVmsRlkQ4dwUXeimOp/KyEw6FBoC014DQEtpd7pzinXld+igQqcgST+aNcs0EvKAjmv3faLK3AKgPq1UcKIDKgrr9XC5lqhiLY5Aqpn6gY+5uSTAg4pbxp2bnXiIVXUntC3uMixN0eCRI5iHopqulih6lXJ0uxWrZJ0vrM8N9oZWT/t4cJ8KyaVLEyvLDJ3ohMDXxwenSMJIxd/tNNEMyxs=",
-          "x5u": "https://boron.lab.amids.at/.well-known/chain.pem"
+        {
+            "id": "did:web:01604987.github.io#myMethod",
+            "controller": "did:web:01604987.github.io",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "RSA",
+                "n": "NjI0OTQzODY4MzA1MjAxODg4Nzc3ODA1Mzg4NjQ4MTQ0Nzg0MTkwMzgwNTMxMjc2OTczODA0MjA0Mzk0OTA5OTUxNjc1MjU2NDA0MjUzODU2OTIwNzM5MzY5NzM3MzA2MzU4NjU0NzUyNzcxMDk2OTY4NjUxOTk4MjE5NjIwODYwODEyMjEwMTMwMjAzMzYzNzU4MjU5ODQ5MzQzNjYxNzg5MDYxNjgwMTE2NTYzMzA5MDY4NDg0MTczMTQzODc2OTEzODY0NTA4NzM2OTAwMjcwMjkyMTg5OTExNTQ0OTE3MDgwOTcwNDc4NTM1NTI4NzA3MDU2NzI4NTI4NjQwMjA2ODkzODE0ODAzMTEzNjA2OTk3NDUwMjkyNzMzMTQ4MjQyNjA1MTAwMjYwNjMwNjY2Mjg2NDUzNzk4NzE1NzI3ODU5MDYzMjk4NTcxMzU2MDg4NDMzODkyNDg2OTgwNDQ1MTQ4MDYxMzY1NzY2NzI1MTg5NTE3MDg0OTI2NjcyNjYwMzk0MDA4NDIwNzI2Njk5Mjg4ODIzNDIxMjU5NDI4NzU3Njk4ODcyMDU2MDY3ODY3NjIyNzk3NDYzOTM2NDMxMDk5NTQ4ODAwOTY3OTkyMDYzNTAwODQxNTM1NTU4NTM1MDc0NDU3NDgwOTgwNzUyNDE2Mzc3NDMyOTQ1MTYzNzgwMzQzNTI5MTYzMTY4MjMzMDQ1NTIwNjc3MDg4ODQ4MjU5ODM4MjA2OTYyMjMxMDQ2NDgzNzUwMjM1MzM4MzgzMzMxMjI1MDk1ODIwNzYxMjc0MjUyNzUxNzgzOTY3NDMwOTMzOTIzNjk2NzI2NjMzNzU2ODExMTM0MDY2Nzg4ODY2NzE2NjkxOTYyMzg4NDcwNTIyMzQyNDM0Nzg3NDIyMDUyMzY2NzM2MzQ3NjA4MzkyNTM3Mzk0ODU5NjY2NjA1MjAzODI2MTIwMzk4NjIwNDA5MDcxNjQ0NTUyNDY2NjU5MTQxNjY5OTY2NzMzODM3ODI1ODY2MDQ0Njc4NzI4NzcyNzA3ODA2NzU4MDk5MTgwMDI4MjI2Mjg4OTY4ODAxMDU3NjIyNDE1ODc4MjcyNjk3OTU4NDUyNDUzNDcxMTEwNzE3MDc0NjE1ODY5MjA4NzU0MjM0NTc4OTI3MTM2Nzc0MjY2Njg4NTg2MDAyNzk5NzI1MjU4NjMxMTkxMzE0MDAzMzI4ODQwODk4NDc5NTU3NzExMjA5NTk1ODk2MTM1MTE1ODU4NzE5MTAyMTcxODcxODg5NzcwMDc4ODA1NTQ4MTM1MzI3NjEwMjEwMDE1NzEwOTAzMjQ3OTQ0NTE5MTY2OTA1NzIzMzQwMzk1MDMzNTA5ODA4MzM3NDAxMDczMjg2OTc3MjcwMDg2MTA3NjIyODI2NDg5NjU0NjU4MzU4NTA3MDAwMzIwMTg4NTMzMjg0MDU0MzE3NTE5ODM1Njg5NTEyNDQzMzc4NjUwMDg2NTU1MzczMDAwNjUyNDc2NTYxMTY3MTI0Njc3NjAzNjkwODA2NDg4ODE1OTAxNDQxNDk1NjUwMzc5OTkzNDYzNTQ4MzIzMTQ5OTYyODg2OTM1NDg0ODk4MDU1NzA0NjA5OTA3Njc3MTk5Nzg2Njc3MTc2MTY5MTA2ODQx",
+                "e": "NjU1Mzc",
+                "algo": "RS256",
+                "x5u": "http://01604987.github.io/.well-known/chain.pem"
+            }
         }
-      }
     ],
     "assertionMethod": [
-      "did:web:01604987.github.io#X509-JWK2020"
-    ],
-    "@context": [
-      "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/suites/jws-2020/v1"
+        "did:web:01604987.github.io#myMethod"
     ]
-  }
+}
