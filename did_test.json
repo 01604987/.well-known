@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:01604987.github.io",
+    "verificationMethod": [
+        {
+            "id": "did:web:01604987.github.io#myMethod",
+            "controller": "did:web:01604987.github.io",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "RSA",
+                "kid": "P6L-J7VnEZORl3wWQJ5t9B749fNkaCU07Nj6ZrXebnc",
+                "n": "rRZcR8Mpd7_ojaR0dEHhlYB9_yPcGPoIRqizfki_Lh5oMrpGw_wCipo-fDVJ9s2C3oDiougMtcxEgpeYWsA4cZ7HYxk69NSG5Q5D0PpOT1O4s5oCZlhvV318wT_jfrMdd09RNVQI8JyEXM4Kw9f4htXdPCTqMgUCeLNFPwkdA-uEXVfeROEtGxwdvMGnQPImR831ETOASzG2XxUw3Ydwf3ap2Tt5iLCIP4tjXtsv_-keog-sNTlz7Tps1XC63ZlftXbvykSAZIfGwa1SxgfHJIsrg9TK8-X7TvctGriYsV4Rho9aeAFb268X6GyDAYfwOUdhNRgLAzAOT52XG_3c9r4Ia8Zf6ciCYtuTwLU3YzAdTMsGIi3nF-kenOnFh_DoNgT6XVqDvATs2O8sr8ejVs686IxrA4HinbgTJ8fSic1r5vX4WF7EeGPlV10LqkBvg015tgWHwrP3LUJJAStS4OXmUoQrSD6U1gglMJyH73JyYrNKJF3IK_fT1J0rgdtFlMBqvXy5hkJvUahzwaaYwLGSgWnHW2DAv42h_ef2g8WQ6edy7cmJf-VyJNPbl__cujMoAQ6C3dpWPl8dmvKuvQvDv4uQE-97Dt8IDZWxcL3FnuBMy62hI_sueicRg1dAfKPAdhXPo2yIGPXoTwIecwvKfhoznkrlsyfn8zz9taM",
+                "e": "AQAB",
+                "x5u": "https://01604987.github.io/.well-known/myCert.pem",
+                "algo": "RS256"
+            }
+        }
+    ],
+    "assertionMethod": [
+        "did:web:01604987.github.io#myMethod"
+    ]
+}
